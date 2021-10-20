@@ -1,0 +1,38 @@
+{
+  "id": "root",
+  "children": [
+    {
+      "id": "fname",
+      "type": "SWInputText",
+      "placeholder": "First Name"
+    },
+    {
+      "id": "rlist",
+      "type": "SWUnorderedList",
+      "children": [
+        {
+          "id": "lname",
+          "type": "SWInputText",
+          "placeholder": "Last Name",
+          "maxlength": 50
+        },
+        {
+          "id": "slist",
+          "type": "SWUnorderedList",
+          "children": ["First sub-item", "Second sub-item"]
+        },
+        "Third item"
+      ]
+    },
+    {
+      "id": "cars",
+      "type": "SWInputSelect",
+      "options": [
+        { "id": "volvo", "value": "Volvo" },
+        { "id": "saab", "value": "Saab" },
+        { "id": "mercedes", "value": "Mercedes" },
+        { "id": "audi", "value": "Audi" }
+      ]
+    }
+  ]
+}
